@@ -85,5 +85,4 @@
 ✅ **Real-time notifications for order tracking** (WebSockets).  
 ✅ **Secure payment & transaction tracking** for buyers and sellers.
 
-This **modular approach** ensures **scalability** and **easy expansion** to more campuses! 🚀  
-Would you like **database schemas** or **API contract details** next?
+`Details`->`https://chatgpt.com/share/67e385d0-cef4-8001-8481-80d1f8679dc4`
