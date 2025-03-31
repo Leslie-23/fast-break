@@ -10,9 +10,7 @@ import { Order } from "./order.model.js";
 
 // Connect to MongoDB (update with your connection string)
 mongoose
-  .connect(
-    "mongodb+srv://leslie:6xVOgtV74r52wXzq@fastbreak.bb6szhk.mongodb.net/"
-  )
+  .connect("mongodb://localhost:27017/ecommerce-food")
   .then(() => console.log("MongoDB Connected..."))
   .catch((err) => console.log(err));
 
