@@ -64,7 +64,7 @@ Thrifty is a full-featured e-commerce web application built using the MERN stack
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/thrifty.git
+   git clone https://github.com/Leslie-23/thrifty.git
    cd thrifty
    ```
 
@@ -72,17 +72,17 @@ Thrifty is a full-featured e-commerce web application built using the MERN stack
 
    ```bash
    # Install server dependencies
-   cd server
+   cd backend
    npm install
 
    # Install client dependencies
-   cd ../client
+   cd ../frontend
    npm install
    ```
 
 ## Environment Variables
 
-Create a `.env` file in the `server` directory and add the following:
+Create a `.env` file in the `backend` directory and add the following:
 
 ```env
 NODE_ENV=development
@@ -96,14 +96,14 @@ JWT_SECRET=your_jwt_secret
 1. **Start the backend server**:
 
    ```bash
-   cd server
+   cd backend
    npm run dev
    ```
 
 2. **Start the frontend development server**:
 
    ```bash
-   cd client
+   cd frontend
    npm start
    ```
 
@@ -150,3 +150,20 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+```
+All collections cleared
+MongoDB Connected...
+Sample users created
+ Sample categories created
+  Sample products created
+  Sample orders created
+   All test data created successfully!
+     Import complete
+          Reference IDs:
+          ==============
+           Admin User ID: new ObjectId('67e9b16ff572d4eee0861a5e')
+           Electronics Category ID: new ObjectId('67e9b174f572d4eee0861a65')
+           MacBook Pro ID: new ObjectId('67e9b174f572d4eee0861a6f')
+           John's Order ID: new ObjectId('67e9b176f572d4eee0861a7f')
+```
